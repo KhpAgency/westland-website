@@ -122,6 +122,10 @@
   color: var(--color-green);
 }
 
+.blue {
+  color: var(--color-blue);
+}
+
 .mission {
   float: right;
   padding-top: 100px;
@@ -155,6 +159,13 @@
 .line{
     margin-bottom: -60px;
     margin-top: -15px;
+}
+
+.qoute{
+  color: white;
+}
+.qoute span{
+  font-size: 3rem;
 }
 /* new css end */
 
@@ -9535,6 +9546,11 @@ blockquote:before,
 .footer-bottom {
   padding: 27px 0;
   background-color: #1e79b114;
+}
+
+.footer-bottom2 {
+  padding: 27px 0;
+  background-color: #8ec2418c;
 }
 
 .footer-bottom p {
