@@ -260,6 +260,13 @@
   margin-right: 20px;
 }
 
+.chicken {
+  position: relative;
+  top: -40px;
+  left: 40%;
+  width: 80%;
+}
+
 /* new css end */
 
 
