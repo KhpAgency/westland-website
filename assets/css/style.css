@@ -79,10 +79,10 @@
   font-family: 'poppins';
   src: url('/assets/fonts/Poppins-SemiBold.eot');
   src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
-      url('/assets/fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
-      url('/assets/fonts/Poppins-SemiBold.woff2') format('woff2'),
-      url('/assets/fonts/Poppins-SemiBold.woff') format('woff'),
-      url('/assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+    url('/assets/fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Poppins-SemiBold.woff2') format('woff2'),
+    url('/assets/fonts/Poppins-SemiBold.woff') format('woff'),
+    url('/assets/fonts/Poppins-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
@@ -168,6 +168,15 @@
   text-align: center;
 }
 
+.c-title {
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  color: white;
+}
+
 .line {
   margin-bottom: -60px;
   margin-top: -15px;
@@ -237,7 +246,7 @@
   text-decoration: underline;
 }
 
-.video-thumb img {
+#video-thumb1 img {
   transform: scale(1.3);
 }
 
