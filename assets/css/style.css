@@ -167,6 +167,19 @@
 .qoute span{
   font-size: 3rem;
 }
+.qq{
+  position: relative;
+  top: 35px;
+}
+.team-title{
+  text-align: left;
+  color: var(--color-blue);
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.team-member p{
+  font-size: 1.2rem;
+}
 /* new css end */
 
 
