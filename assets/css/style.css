@@ -202,6 +202,13 @@
   font-weight: normal;
 }
 
+.team-title2 {
+  text-align: left;
+  color: black;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
 .team-member p {
   font-size: 1.2rem;
   margin-bottom: 30px;
@@ -262,9 +269,68 @@
 
 .chicken {
   position: relative;
-  top: -40px;
+  /* top: -40px; */
   left: 40%;
   width: 80%;
+}
+
+.growth-blue {
+  background-color: rgb(30, 121, 177, 0.5);
+  color: white;
+  padding: 50px 40px 50px 100px;
+  font-size: 1.2rem;
+  max-width: 1050px;
+}
+
+.growth-white {
+  background-color: white;
+  padding: 50px 100px 50px 40px;
+  font-size: 1.2rem;
+  max-width: 950px;
+  filter: drop-shadow(1px 1px 4px rgb(182, 182, 182));
+}
+
+.date-icon {
+  position: absolute;
+  width: 100px;
+  right: 1015px;
+  top: 35px;
+}
+
+.date-icon-w {
+  position: absolute;
+  width: 100px;
+  left: 910px;
+  top: 35px;
+}
+
+.date-icon3 {
+  position: absolute;
+  width: 100px;
+  right: 1015px;
+  top: 55px;
+}
+
+.date-icon4 {
+  position: absolute;
+  width: 100px;
+  left: 915px;
+  top: 65px;
+}
+
+.date-icon5 {
+  position: absolute;
+  width: 100px;
+  right: 1015px;
+  top: 55px;
+}
+
+.mmm {
+  float: right;
+  max-width: 70%;
+}
+.w-60{
+  width: 60%;
 }
 
 /* new css end */
@@ -3073,7 +3139,7 @@ p>object:only-child {
   }
 
   .padding-tb2 {
-    padding: 150px 0;
+    padding: 170px 0;
   }
 
   .padding-tb3 {
@@ -3094,7 +3160,7 @@ p>object:only-child {
   font-family: 'poppins';
   font-weight: 700;
   box-shadow: 0px 5px 15px 0px rgba(102, 162, 27, 0.5);
-  background-image: linear-gradient(to right, #64a019, #6ca821, #73b128, #7bb92f, #83c236);
+  background: var(--color-blue)
 }
 
 .btn:hover {
@@ -3245,6 +3311,20 @@ p>object:only-child {
 
 .page-header-bg-1 {
   background: url(../../assets/img/about/cover-01.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: contrast(1.2) brightness(0.9);
+}
+
+.page-header-bg-contact {
+  background: url(../../assets/img/contact/bg1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* filter: contrast(1.2) brightness(0.9); */
+}
+
+.page-header-bg-product {
+  background: url(../../assets/img/product/bg.png) no-repeat;
   background-size: cover;
   background-position: center;
   filter: contrast(1.2) brightness(0.9);
@@ -3678,7 +3758,7 @@ blockquote:before,
 }
 
 .primary-menu .menu-area ul.main-menu li a {
-  color: #181818;
+  color: var(--color-blue);
   padding: 38px 10px;
   display: inline-block;
   margin: 0 10px;
@@ -7443,7 +7523,7 @@ blockquote:before,
 
 /* contact section start here  */
 .contact-part {
-  background: #eff4f8;
+  background-color: rgb(30, 121, 177, 0.2);
   padding: 40px 30px;
 }
 
@@ -7464,11 +7544,11 @@ blockquote:before,
 
 .contact-part .contact-form input.btn {
   width: 100%;
-  background-color: #5d9913;
+  background-color: var(--color-blue);
 }
 
 .contact-part .contact-form input.btn:hover {
-  background-color: #5d9913;
+  background-color: #15567e;
 }
 
 .contact-part .contact-form textarea {
@@ -7497,9 +7577,11 @@ blockquote:before,
 }
 
 .contact-info {
-  border: 2px solid #eff4f8;
+  /* border: 2px solid #eff4f8; */
   padding: 40px 30px;
   margin-top: 40px;
+  background: white;
+  filter: drop-shadow(1px 1px 4px rgb(182, 182, 182));
 }
 
 @media (min-width: 992px) {
@@ -7525,7 +7607,7 @@ blockquote:before,
   height: 30px;
   line-height: 30px;
   text-align: center;
-  background: #5d9913;
+  background: var(--color-blue);
   color: #fff;
   border-radius: 3px;
 }
