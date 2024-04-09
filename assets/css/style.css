@@ -216,6 +216,8 @@
 
 .team-member img {
   border-radius: 20px;
+  height: 380px;
+  width: -webkit-fill-available;
 }
 
 .logo img {
@@ -329,12 +331,29 @@
   float: right;
   max-width: 70%;
 }
-.w-60{
+
+.w-60 {
   width: 60%;
+}
+
+.btn {
+  box-shadow: none !important;
+}
+
+.growth-p {
+  FONT-SIZE: 1.5rem;
 }
 
 /* new css end */
 
+/* desktop view */
+@media only screen and (min-width: 1600px) {
+  .banner.style-1 .carousel.slide .carousel-inner .carousel-item .slider-content .slider-content-inner p {
+    font-size: 46px !important;
+  }
+}
+
+/* desktop view */
 
 html {
   font-family: 'poppins';
@@ -4499,6 +4518,12 @@ blockquote:before,
 @media (min-width: 1200px) {
   .banner.style-1 .carousel.slide .carousel-inner .carousel-item .slider-content .slider-content-inner h2 {
     font-size: 60px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .banner.style-1 .carousel.slide .carousel-inner .carousel-item .slider-content .slider-content-inner h2 {
+    font-size: 70px;
   }
 }
 
