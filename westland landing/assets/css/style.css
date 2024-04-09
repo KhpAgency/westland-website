@@ -348,6 +348,50 @@
   text-transform: capitalize;
 }
 
+/* .about.style-2 .about-left:hover img {
+  filter: contrast(1.3) brightness(1.5);
+} */
+
+/* .about.style-2 .about-left img {
+  transition: 0.5s;
+} */
+
+.honey {
+  width: 150px;
+  position: relative;
+  top: -280px;
+  left: 200px;
+}
+
+.ajban {
+  width: 380px;
+  position: relative;
+  top: -230px;
+  left: 100px;
+}
+
+.pro-btn1 {
+  background: white;
+  position: relative;
+  top: -132px;
+  right: 145px;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.pro-btn2 {
+  background: white;
+  position: relative;
+  top: -160px;
+  left: 65px;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.slide2{
+    filter: brightness(0.7);
+}
+
 /* new css end */
 
 /* desktop view */

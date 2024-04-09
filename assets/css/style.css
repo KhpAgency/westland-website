@@ -232,6 +232,26 @@
   background-color: rgb(30, 121, 177, 0.7);
 }
 
+.ajban-t-b {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.ajban-p-b {
+  color: black !important;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 100 !important;
+  max-width: 100% !important;
+}
+
+.ajban-p-b span {
+  font-weight: 600 !important;
+}
+
 .ajban-t {
   color: white;
   text-transform: uppercase;
@@ -346,6 +366,17 @@
 
 .cap{
   text-transform: capitalize;
+}
+
+.project{
+  font-weight: 100 !important;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+}
+
+.max{
+  max-width: 100% !important;
 }
 
 /* new css end */
