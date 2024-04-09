@@ -344,7 +344,7 @@
   FONT-SIZE: 1.5rem;
 }
 
-.cap{
+.cap {
   text-transform: capitalize;
 }
 
@@ -3244,7 +3244,7 @@ p>object:only-child {
 
 .section-header {
   text-align: center;
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
   margin-bottom: 85px;
   position: relative;
@@ -3269,10 +3269,11 @@ p>object:only-child {
 }
 
 .section-header p {
-  max-width: 500px;
+  max-width: 100%;
   margin: 0 auto;
   font-weight: 400;
   color: #505050;
+  font-size: 1.1rem;
 }
 
 @media (max-width: 767px) {
