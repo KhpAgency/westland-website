@@ -214,6 +214,22 @@ h2 {
 .banner.style-1 {
   height: 200px !important;
 }
+.header2 {
+  color: white;
+  text-align: left;
+  font-weight: normal;
+  text-transform: uppercase;
+  position: relative;
+  top: 50px !important;
+  left: 0px !important;
+}
+h1 {
+  font-size: 25px !important;
+  line-height: 30px !important;
+}
+.mt-0m{
+  margin-top: 0px !important;
+}
 }
 /* mobile view */
 
