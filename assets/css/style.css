@@ -302,7 +302,7 @@
   .date-icon5 {
     position: absolute !important;
     width: 70px !important;
-    right: 320px !important;
+    right: 330px !important;
     top: 125px !important;
   }
   .h12 {
@@ -333,6 +333,20 @@
     -moz-border-radius: 20px !important;
     -ms-border-radius: 20px !important;
     -o-border-radius: 20px !important;
+  }
+  .carousel__arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    color: var(--color-green) !important;
+    font-size: 7vw !important;
+    line-height: 30vh !important;
+    text-align: center;
+    text-shadow: 0 0 !important;
+    opacity: 0.8 !important;
+    z-index: 2;
+    cursor: pointer;
+    transition: opacity 0.3s;
   }
 }
 /* mobile view */
