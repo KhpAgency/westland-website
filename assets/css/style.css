@@ -352,6 +352,7 @@
 /* mobile view */
 
 /* new css start */
+
 .header2 {
   color: white;
   text-align: left;
@@ -619,6 +620,10 @@
 
 .max {
   max-width: 100% !important;
+}
+.carousel__arrow {
+  color: var(--color-green) !important;
+  opacity: 0.8 !important;
 }
 
 /* new css end */
